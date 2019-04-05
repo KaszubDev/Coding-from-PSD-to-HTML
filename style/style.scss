@@ -1,0 +1,237 @@
+
+@mixin center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+// 265px 390px
+* {
+  margin: 0;
+  background-color: #fff;
+}
+body {
+  margin: 0 auto;
+  width: 1170px;
+  font-family: Verdana, serif;
+}
+header {
+  ul {
+    float: right;
+  }
+  li {
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 0 8px 25px;
+  }
+  a {
+    color: #434343;
+    text-decoration: none;
+  }
+}
+nav {
+  .upperNavItem {
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 18px;
+    width: 116px;
+    margin-left: 5px;
+    a {
+      background-color: transparent;
+      color: #fff;
+      font-size: 16px;
+    }
+    img {
+      margin-left: 10px;
+      position: absolute;
+
+    }
+  }
+  .large {
+    width: 142px;
+    a {
+      margin-left: -20px;
+    }
+  }
+  .gift {
+    img {
+      margin-top: -6px;
+    }
+  }
+  .upperNavItems {
+    float: right;
+    height: 100%;
+    position: relative;
+    top: -89px;
+  }
+  .upperNav {
+    overflow: hidden;
+    height: 90px;
+    background-color: #f6f6f6;
+    width: 100%;
+  }
+  .logo {
+    height: 100%;
+    width: 189px;
+    overflow: hidden;
+    img {
+      position: absolute;
+      margin-top: -20px;
+      margin-left: 10px;
+      transform: scale(.8);
+    }
+  }
+  .mainNav {
+    margin: 15px 0;
+    height: 71px;
+    overflow: hidden;
+    display: block;
+    ul {
+      display: flex;
+      flex-grow: 1;
+      float: none;
+      list-style: none;
+      margin: 0 auto;
+      padding: 0;
+      height: 100%;
+      width: 85%;
+      a {
+        color: #fff;
+        font-size: 16px;
+        background-color: #05aecc;
+      }
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0 23px;
+        height: 100%;
+        background-color: #05aecc;
+        cursor: pointer;
+      }
+      :hover {
+        background-color: #fff;
+        a {
+          color: #f0626e;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}
+.mainColorRed {
+  background-color: #f0626e;
+}
+.mainColorBlue {
+  background-color: #05aecc;
+}
+slider {
+  height: 570px;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  .mens {
+    height: 570px;
+    width: 670px;
+    background-image: url("../assets/mens.png");
+    background-position: center;
+
+    .caption-container {
+      color: #ef5966;
+      text-align: center;
+      width: 350px;
+      height: 150px;
+      position: absolute;
+      margin-top: 410px;
+
+      .caption1 {
+        background-color: #5c5068;
+        width: 100%;
+        height: 105px;
+        h1 {
+          text-transform: uppercase;
+        }
+        h1,p {
+          background-color: #5c5068;
+        }
+        p {
+          color: #fff;
+        }
+      }
+      .caption2 {
+        background-color: #ef6b73;
+        height: 45px;
+        p {
+          background-color: #ef6b73;
+          color: #fff;
+        }
+      }
+
+    }
+  }
+  .womens {
+    background-image: url("../assets/womens.png");
+    width: 493px;
+    height: 320px;
+    margin-left: 7px;
+    .caption-container {
+      color: #ef5966;
+      width: 270px;
+      height: 85px;
+      background-color: #5c5068;
+      position: absolute;
+      z-index: 2;
+      margin-top: 230px;
+      text-align: center;
+      .caption{
+        font-size: 12px;
+        p {
+          color: #fff;
+          background-color: #5c5068;
+        }
+        h1 {
+          text-transform: uppercase;
+          background-color: #5c5068;
+        }
+      }
+    }
+    .color-overlay {
+      background-color: #f2eace;
+      height: 320px;
+      width: 493px;
+      opacity: 0.2;
+    }
+  }
+  .kids {
+    background-image: url("../assets/kids.png");
+    background-position: center;
+    height: 243px;
+    width: 493px;
+    margin-left: 0;
+    margin-top: 327px;
+    filter: brightness(.9);
+    .color-overlay {
+      background-color: #5c5068;
+      height: 243px;
+      width: 493px;
+      opacity: 0.6;
+    }
+  }
+  .column {
+    float: left;
+  }
+}
+.color-overlay {
+  position: absolute;
+  height: 570px;
+  width: 670px;
+  background-color: #f2eace;
+  opacity: 0.2;
+}
+#hehe {
+  background-color: burlywood;
+  height: 2000px;
+  margin-top: 200px;
+}

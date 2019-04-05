@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  background-color: #fff; }
+
+body {
+  margin: 0 auto;
+  width: 1170px;
+  font-family: Verdana, serif; }
+
+header ul {
+  float: right; }
+header li {
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 0 8px 25px; }
+header a {
+  color: #434343;
+  text-decoration: none; }
+
+nav .upperNavItem {
+  float: left;
+  height: 100%;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 18px;
+  width: 116px;
+  margin-left: 5px; }
+  nav .upperNavItem a {
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px; }
+  nav .upperNavItem img {
+    margin-left: 10px;
+    position: absolute; }
+nav .large {
+  width: 142px; }
+  nav .large a {
+    margin-left: -20px; }
+nav .gift img {
+  margin-top: -6px; }
+nav .upperNavItems {
+  float: right;
+  height: 100%;
+  position: relative;
+  top: -89px; }
+nav .upperNav {
+  overflow: hidden;
+  height: 90px;
+  background-color: #f6f6f6;
+  width: 100%; }
+nav .logo {
+  height: 100%;
+  width: 189px;
+  overflow: hidden; }
+  nav .logo img {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 10px;
+    transform: scale(0.8); }
+nav .mainNav {
+  margin: 15px 0;
+  height: 71px;
+  overflow: hidden;
+  display: block; }
+  nav .mainNav ul {
+    display: flex;
+    flex-grow: 1;
+    float: none;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 85%; }
+    nav .mainNav ul a {
+      color: #fff;
+      font-size: 16px;
+      background-color: #05aecc; }
+    nav .mainNav ul li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 0 23px;
+      height: 100%;
+      background-color: #05aecc;
+      cursor: pointer; }
+    nav .mainNav ul :hover {
+      background-color: #fff; }
+      nav .mainNav ul :hover a {
+        color: #f0626e;
+        background-color: #fff; }
+
+.mainColorRed {
+  background-color: #f0626e; }
+
+.mainColorBlue {
+  background-color: #05aecc; }
+
+slider {
+  height: 570px;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden; }
+  slider .mens {
+    height: 570px;
+    width: 670px;
+    background-image: url("../assets/mens.png");
+    background-position: center; }
+    slider .mens .caption-container {
+      color: #ef5966;
+      text-align: center;
+      width: 350px;
+      height: 150px;
+      position: absolute;
+      margin-top: 410px; }
+      slider .mens .caption-container .caption1 {
+        background-color: #5c5068;
+        width: 100%;
+        height: 105px; }
+        slider .mens .caption-container .caption1 h1 {
+          text-transform: uppercase; }
+        slider .mens .caption-container .caption1 h1, slider .mens .caption-container .caption1 p {
+          background-color: #5c5068; }
+        slider .mens .caption-container .caption1 p {
+          color: #fff; }
+      slider .mens .caption-container .caption2 {
+        background-color: #ef6b73;
+        height: 45px; }
+        slider .mens .caption-container .caption2 p {
+          background-color: #ef6b73;
+          color: #fff; }
+  slider .womens {
+    background-image: url("../assets/womens.png");
+    width: 493px;
+    height: 320px;
+    margin-left: 7px; }
+    slider .womens .caption-container {
+      color: #ef5966;
+      width: 270px;
+      height: 85px;
+      background-color: #5c5068;
+      position: absolute;
+      z-index: 2;
+      margin-top: 230px;
+      text-align: center; }
+      slider .womens .caption-container .caption {
+        font-size: 12px; }
+        slider .womens .caption-container .caption p {
+          color: #fff;
+          background-color: #5c5068; }
+        slider .womens .caption-container .caption h1 {
+          text-transform: uppercase;
+          background-color: #5c5068; }
+    slider .womens .color-overlay {
+      background-color: #f2eace;
+      height: 320px;
+      width: 493px;
+      opacity: 0.2; }
+  slider .kids {
+    background-image: url("../assets/kids.png");
+    background-position: center;
+    height: 243px;
+    width: 493px;
+    margin-left: 0;
+    margin-top: 327px;
+    filter: brightness(0.9); }
+    slider .kids .color-overlay {
+      background-color: #5c5068;
+      height: 243px;
+      width: 493px;
+      opacity: 0.6; }
+  slider .column {
+    float: left; }
+
+.color-overlay {
+  position: absolute;
+  height: 570px;
+  width: 670px;
+  background-color: #f2eace;
+  opacity: 0.2; }
+
+#hehe {
+  background-color: burlywood;
+  height: 2000px;
+  margin-top: 200px; }
+
+/*# sourceMappingURL=style.css.map */
